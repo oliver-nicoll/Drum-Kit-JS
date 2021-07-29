@@ -1,3 +1,12 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
 .keys {
     display: flex;
     min-height: 100vh;
