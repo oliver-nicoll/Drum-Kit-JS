@@ -10,7 +10,6 @@
 
 <body>
     <div class="keys">
-
         <div data-key="65" class="key">
             <kbd>A</kbd>
             <span class="sound">clap</span>
@@ -55,14 +54,19 @@
             <kbd>'</kbd>
             <span class="sound">tink</span>
         </div>
-
     </div>
 
-  <script>
-      window.addEventListener('keydown', function(e) {
-          console.log(e)
-      })
-  </script>
+    <audio data-key="65" src="sounds/clap.mp3"></audio>
+    <audio data-key="83" src="sounds/Hi Hat.mp3"></audio>
+    <audio data-key="68" src="sounds/other.wav"></audio>
+    <audio data-key="70" src="sounds/HIHAT2.wav"></audio>
+    <audio data-key="74" src="sounds/bass.wav"></audio>
+    <audio data-key="75" src="sounds/open hi hat.wav"></audio>
+    <audio data-key="76" src="sounds/snare.wav"></audio>
+    <audio data-key="186" src="sounds/tom.mp3"></audio>
+    <audio data-key="222" src="sounds/tink.wav"></audio>
+
+    <script type="text/javascript" src="drum.js"></script>
 </body>
 
 </html>
