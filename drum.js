@@ -1,5 +1,5 @@
 
-const keys = document.querySelectorAll('.key'); //returns array of all elements that match this
+const keys = document.querySelectorAll('.key'); //returns a node list (looks like an array but not one) that match this
 
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
